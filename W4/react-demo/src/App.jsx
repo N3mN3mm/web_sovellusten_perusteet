@@ -1,10 +1,18 @@
 import  Welcome from './w4l1/Welcome'
 import DateNow from './w4l1/DateNow'
 import ProductCard from './w4l2/ProductCard'
+import Counter from './w4l3/Counter'
+import ControlledInput from './w4l3/ControlledInput'
 
 function App() { // react komponentti, palauttaa jsx
 
-  // const nimi = "Mona";
+    return(
+      <div>
+        <Counter/>
+        <ControlledInput/>
+      </div>
+    )
+  /* const nimi = "Mona";
   const products = [
     {
       name: "Carrot",
@@ -61,14 +69,12 @@ function App() { // react komponentti, palauttaa jsx
         )
       }
 
-      {/*<div>Hello world!</div> 
+      {<div>Hello world!</div> 
       <div>Hello {nimi}!</div>
       <Welcome/>
-      <DateNow/>*/}
+      <DateNow/>}
     </div>
-
-    
-  )
+  )*/
 }
 
 export default App
