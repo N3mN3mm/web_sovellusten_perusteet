@@ -3,13 +3,15 @@ import DateNow from './w4l1/DateNow'
 import ProductCard from './w4l2/ProductCard'
 import Counter from './w4l3/Counter'
 import ControlledInput from './w4l3/ControlledInput'
+import TodoList from './w5l1/todo'
 
 function App() { // react komponentti, palauttaa jsx
 
     return(
       <div>
-        <Counter/>
-        <ControlledInput/>
+        <TodoList/>
+        {/* <Counter/>
+        <ControlledInput/> */}
       </div>
     )
   /* const nimi = "Mona";
