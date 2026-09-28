@@ -4,13 +4,17 @@ import ProductCard from './w4l2/ProductCard'
 import Counter from './w4l3/Counter'
 import ControlledInput from './w4l3/ControlledInput'
 import TodoList from './w5l1/todo'
+import TodoEffectLocalStorage from './w6l1/TodoEffectLocalStorage'
+import ClockCounter from './w6l1/ClockCounter'
 
 function App() { // react komponentti, palauttaa jsx
 
     return(
       <div>
-        <TodoList/>
-        {/* <Counter/>
+        <TodoEffectLocalStorage />
+        <ClockCounter/>
+        {/* <TodoList/>
+         <Counter/>
         <ControlledInput/> */}
       </div>
     )
